@@ -1,5 +1,7 @@
 Pinterestkittens::Application.routes.draw do
+  get "page/images"
   #get "page/index"
+  get '/images' => "page#images"
 
 get "/about" => "page#about"
 

@@ -1,7 +1,4 @@
 class PageController < ApplicationController
-  def index
+  def images
   end
-
-def about
-end
 end
