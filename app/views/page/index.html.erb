@@ -1,4 +1,8 @@
 
+<% if user_signed_in? %>
+<p>Welcome back</p><p><%= current_user.email %></p>
+<% end %>
+
 <div class="jumbotron">
   <h1>We all love kittens</h1>
   <p>But I <i>just don't know</i> where to find them on the <b>internet</b>.</p>
@@ -6,6 +10,7 @@
 
   
 </div>
+
 
 <div><table class="table">
   <tr>
